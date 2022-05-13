@@ -26,14 +26,14 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-primary sidebar " id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('pelicula.index') }}">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-crow"></i>
+
         </div>
-        <div class="sidebar-brand-text mx-3">Cine</sup></div>
+        <div class="sidebar-brand-text mx-3">꧁Cineteca꧂</sup></div>
       </a>
 
       <!-- Divider -->
@@ -50,7 +50,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{{ route('favorita.index') }}">
           <i class="fas fa-heart"></i>
-          <span>Favoritas</span></a>
+          <span>Mis Favoritas</span></a>
       </li>
 
       <!-- Peliculas proximas a ver Item -->

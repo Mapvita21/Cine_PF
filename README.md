@@ -2,7 +2,7 @@ CINE
 una pagina diseñada para comentar y votar tus peliculas favoritas. 
 Las peliculas se pueden añadir mediante un usuario que se crea cuando ejecutamos los seeders.
 
-USUARIO: admin@administrador.com
+USUARIO: admin@hotmail.com
 CONTRASEÑA: admin1234
 
 ¡Este es el unico usuario que puede editar el contenido de la pagina, dentro de la misma pagina!
@@ -22,6 +22,8 @@ MAIL_PORT=2525
 MAIL_USERNAME=apikey
 MAIL_PASSWORD=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
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS='kmonge_rey@hotmail.com'
 MAIL_FROM_NAME="CINE"
+
+Comentarios
+Por alguna extraña razon se crean las cuentas pero truena en el redireccionamiento...
 
