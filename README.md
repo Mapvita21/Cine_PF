@@ -27,3 +27,23 @@ MAIL_FROM_NAME="CINE"
 Comentarios
 Por alguna extraña razon se crean las cuentas pero truena en el redireccionamiento...
 
+Por hacer:
+Actualizacion de seeders y factories (nuevas peliculas remodelacion)
+tratar que no truene cuando editemos la peli
+implemetar servicio de correo... pero esto creo
+redireccionamiento al momento de crear un usuario (opcional)
+actualizar lo que dice el redme
+
+
+Dato globito:los links son con un /embed/
+
+Instalacion
+Composer update
+composer install
+cp .env.example .env
+php artisan key:generate
+mysql -uroot
+php artisan migrate
+php artisan db:seed
+php artisan --version
+php artisan serve
