@@ -1,15 +1,14 @@
-CINE
-una pagina diseñada para comentar y votar tus peliculas favoritas. 
+Mr.Reseñador
+una pagina diseñada para comentar y votar todas tus peliculas favoritas. 
 Las peliculas se pueden añadir mediante un usuario que se crea cuando ejecutamos los seeders.
 
 USUARIO: admin@hotmail.com
 CONTRASEÑA: admin1234
-
-¡Este es el unico usuario que puede editar el contenido de la pagina, dentro de la misma pagina!
+¡Este es el usuario encargado de Actualizar, Agregar, Eliminar peliculas dentro de la aplicacion
 
 Los demas usuarios creados solo pueden comentar y votar.
-Solo se permite un comentario ( por usuario ) por pelicula, si se desea cabiar el comentario se debe eliminar y volver a escribir. (hay un bote de basura en la parte superior del comentario, ahi se elimina).
-Todos los usuarios son capaces de agregar peliculas a FAVORITAS o PROXIMAS A VER. Con los iconos de corazon(Favoritas) y reloj (Proximas a ver). Toda pelicula que comentes tambien aparecera un icono indicandote que ya la haz comentado.
+Solo se permite un comentario ( por usuario ) por pelicula, si se desea cabiar el comentario se debe eliminar y volver a escribir. (Usar boton rojo para eliminarlo).
+Todos los usuarios tienen la disponibilidad de escoger FAVORITAS o PROXIMAS A VER. Con los iconos correspondientes. (Toda pelicula que comentes tambien aparecera un icono indicandote que ya la haz comentado.)
 
 Nombre base de datos:
 DB_DATABASE=cine
@@ -19,23 +18,17 @@ Envio de correos electronicos ( Utilizo mi correo personal para enviar correos p
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.sendgrid.net
 MAIL_PORT=2525
-MAIL_USERNAME=apikey
-MAIL_PASSWORD=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
-MAIL_ENCRYPTION=tls
 MAIL_FROM_NAME="CINE"
 
 Comentarios
 Por alguna extraña razon se crean las cuentas pero truena en el redireccionamiento...
 
 Por hacer:
-Actualizacion de seeders y factories (nuevas peliculas remodelacion)
 tratar que no truene cuando editemos la peli
 implemetar servicio de correo... pero esto creo
 redireccionamiento al momento de crear un usuario (opcional)
 actualizar lo que dice el redme
 
-
-Dato globito:los links son con un /embed/
 
 Instalacion
 Composer update
