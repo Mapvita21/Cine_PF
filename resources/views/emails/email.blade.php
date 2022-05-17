@@ -5,9 +5,9 @@
   </head>
   <body>
     <h2>CINE</h2>
-  <p>Hola {{$user->name}}</p>
-  <p>Bienvenido a la comunidad de CINE, esperamos que te divertas con nuestro contenido y comentes todas las peliculas que puedas.
-      Actualizamos contenido a diario, No te lo pierdas :D
+  <p>Hey que rollo!! {{$user->name}}</p>
+  <p>Te damos la bienvenida por unirte a nuestra comunidad de reseñadores y dar la oportunidad a nuestra pagina, asi que que esperas.
+      A disfrutar beach!!!
   </p>
   </body>
 </html>
