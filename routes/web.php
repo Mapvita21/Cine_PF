@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Pelicula;
 
+use App\mail\ContactMailable;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +39,5 @@ Route::resource('proxima', 'ProximaController')->middleware("auth");
 Route::resource('pelicula', 'PeliculaController');
 
 Route::resource('comentario', 'ComentarioController')->middleware("auth");
+
+

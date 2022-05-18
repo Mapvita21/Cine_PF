@@ -20,9 +20,9 @@ class BienvenidaCorreo extends Mailable
 
     public function build()
     {
-        $address = 'kmonge_rey@hotmail.com';
-        $subject = 'CINE <3';
-        $name = 'Cine Progra Internet';
+        $address = 'admin@MrRedisenador.com';
+        $subject = 'MrResenadores';
+        $name = 'Soy el mero atole';
 
         return $this->view('emails.email')
                     ->from($address)
