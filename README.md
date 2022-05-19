@@ -21,7 +21,7 @@ Nombre base de datos:
 ➸MAIL_MAILER=smtp
 ➸MAIL_HOST=smtp.sendgrid.net
 ➸MAIL_PORT=2525
-➸MAIL_FROM_NAME="CINE"
+➸MAIL_FROM_NAME="MR.Reseniador"
 
 
 ☝Comentarios
