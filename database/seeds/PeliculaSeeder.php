@@ -6,7 +6,6 @@ use App\Pelicula;
 class PeliculaSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
      *
      * @return void
      */

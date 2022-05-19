@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Schema;
 class CreatePeliculasTable extends Migration
 {
     /**
-     * Run the migrations.
      *
      * @return void
      */
@@ -28,7 +27,6 @@ class CreatePeliculasTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
      *
      * @return void
      */

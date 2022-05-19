@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Schema;
 class CreateFavoritasTable extends Migration
 {
     /**
-     * Run the migrations.
      *
      * @return void
      */
@@ -25,7 +24,6 @@ class CreateFavoritasTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
      *
      * @return void
      */

@@ -19,15 +19,15 @@
                         <div class="from-grup">
                             {!! Form::label('nombre_pelicula', '¿Cual es el nombre de la pelicula?') !!}
                             <br>
-                            {!! Form::text('nombre_pelicula', isset($pelicula)?$pelicula->nombre_pelicula:null, ['placeholder' => 'Titanic', 'size' => '55']) !!}
+                            {!! Form::text('nombre_pelicula', isset($pelicula)?$pelicula->nombre_pelicula:null, ['placeholder' => 'Pelicula', 'size' => '55']) !!}
                         </div>
                         <div class="from-grup">
                             {!! Form::label('sinopsis', '¿De que trata?') !!}
-                            {!! Form::textarea('sinopsis', null, ['placeholder' => 'Entonces...', 'rows' => '3', 'cols' => '55']) !!}
+                            {!! Form::textarea('sinopsis', null, ['placeholder' => 'Habia una vez...', 'rows' => '3', 'cols' => '55']) !!}
                         </div>
                         <div class="from-grup">
                             {!! Form::label('imagen_url', 'Dame el URL del poster y del video') !!}
-                            {!! Form::textarea('imagen_url', null, ['placeholder' => 'Al abrir el url debe solo aparecer la imagen', 'rows' => '2', 'cols' => '55']) !!}
+                            {!! Form::textarea('imagen_url', null, ['placeholder' => 'Url imagen', 'rows' => '2', 'cols' => '55']) !!}
                             {!! Form::textarea('url_trailer', null, ['placeholder' => 'El video debe ser de toda la pantalla (embed)','rows' => '2', 'cols' => '55']) !!}
                         </div>
                         <div class="from-grup">

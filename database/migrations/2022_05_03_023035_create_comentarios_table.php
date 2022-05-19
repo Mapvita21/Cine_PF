@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Schema;
 class CreateComentariosTable extends Migration
 {
     /**
-     * Run the migrations.
      *
      * @return void
      */
@@ -29,7 +28,6 @@ class CreateComentariosTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
      *
      * @return void
      */

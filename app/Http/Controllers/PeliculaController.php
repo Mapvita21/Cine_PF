@@ -11,8 +11,7 @@ use Illuminate\Support\Facades\Auth;
 class PeliculaController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
+
      * @return \Illuminate\Http\Response
      */
 
@@ -36,7 +35,7 @@ class PeliculaController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+
      *
      * @return \Illuminate\Http\Response
      */
@@ -47,7 +46,7 @@ class PeliculaController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -72,7 +71,7 @@ class PeliculaController extends Controller
     }
 
     /**
-     * Display the specified resource.
+
      *
      * @param  \App\Pelicula  $pelicula
      * @return \Illuminate\Http\Response
@@ -94,7 +93,7 @@ class PeliculaController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+
      *
      * @param  \App\Pelicula  $pelicula
      * @return \Illuminate\Http\Response
@@ -106,7 +105,7 @@ class PeliculaController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Pelicula  $pelicula
@@ -114,11 +113,21 @@ class PeliculaController extends Controller
      */
     public function update(Request $request, Pelicula $pelicula)
     {
-        //
+        $pelicula->nombre_pelicula = $request->nombre_pelicula;
+        $pelicula->imagen_url = $request->imagen_url;
+        $pelicula->sinopsis = $request->sinopsis;
+        $pelicula->url_trailer = $request->url_trailer;
+        $pelicula->anio = $request->anio;
+        $pelicula->genero = $request->genero;
+        $pelicula->duracion = $request->duracion;
+        //$pelicula->informacion_basica = $informacion_basica;
+
+        $pelicula->save();
+        return redirect()->route('pelicula.index')->with(['Mensaje' => 'Pelicula editada correctamente']);
     }
 
     /**
-     * Remove the specified resource from storage.
+ 
      *
      * @param  \App\Pelicula  $pelicula
      * @return \Illuminate\Http\Response
