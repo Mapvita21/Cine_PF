@@ -24,7 +24,6 @@ class CreateProximasTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
      *
      * @return void
      */

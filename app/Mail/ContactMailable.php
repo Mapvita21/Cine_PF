@@ -24,7 +24,6 @@ class ContactMailable extends Mailable
     }
 
     /**
-     * Build the message.
      *
      * @return $this
      */
