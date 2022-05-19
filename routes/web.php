@@ -40,4 +40,6 @@ Route::resource('pelicula', 'PeliculaController');
 
 Route::resource('comentario', 'ComentarioController')->middleware("auth");
 
-
+Route::get('meto', function () {
+    return view('Metopay');
+});

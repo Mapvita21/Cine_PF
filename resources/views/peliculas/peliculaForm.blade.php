@@ -14,7 +14,7 @@
                 @else
                     {!! Form::open(['route' => 'pelicula.store']) !!}
                 @endisset
-                    <div class="card-header">Cargar nueva pelicula</div>
+                    <div class="card-header">Nueva pelicula</div>
                     <div class="card-body">
                         <div class="from-grup">
                             {!! Form::label('nombre_pelicula', '¿Cual es el nombre de la pelicula?') !!}
