@@ -4,7 +4,9 @@ una pagina diseñada para comentar y votar todas tus peliculas favoritas.
 Las peliculas se pueden añadir mediante un usuario que se crea cuando ejecutamos los seeders.
 
 ☂USUARIO:    admin@hotmail.com
+
 ☃CONTRASEÑA: admin1234
+
 ¡Este es el usuario encargado de Actualizar, Agregar, Eliminar peliculas dentro de la aplicacion
 
 Los demas usuarios creados solo pueden comentar y votar.
