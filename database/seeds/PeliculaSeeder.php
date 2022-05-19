@@ -45,9 +45,12 @@ class PeliculaSeeder extends Seeder
         Pelicula::create(['imagen_url' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIsLXCIR1KNEy7RyPqdx8A2Yex4afcyOeXgMCetf_JhIrAhzl',
         'nombre_pelicula' => 'Spider-Man: un nuevo universo','anio' => 2018, 'genero' => 'Accion', 'duracion' => '1h 56m',
         'sinopsis' => 'La historia se centra en un chico llamado Miles Morales, un adolescente que admira a Spider-Man, quien lucha por adaptarse a su nuevo internado de élite y estar a la altura de las expectativas de sus padres, Rio Morales y Jefferson Davis, quienes consideran a Spider-Man como una amenaza.',
-        'puntaje' => 4.4, 'cantidad_votos' => 2121, 'url_trailer' => 'www.youtube.com/embed/g4Hbz2jLxvQ']);
+        'puntaje' => 4.4, 'cantidad_votos' => 2121, 'url_trailer' => 'https://www.youtube.com/embed/g4Hbz2jLxvQ']);
 
-
+        Pelicula::create(['imagen_url' => 'https://pics.filmaffinity.com/Norbit-915357126-large.jpg',
+        'nombre_pelicula' => 'Norbit','anio' => 2007, 'genero' => 'Comedia', 'duracion' => '1h 43m',
+        'sinopsis' => 'El amable Norbit siempre la ha pasado muy mal desde el día en que fue abandonado en una combinación de orfanato y restaurante chino. Recientemente fue obligado a casarse con la insoportable y glotona Rasputia, y él llega a su límite. Entonces, Kate, el amor de su infancia, se muda de regreso a su ciudad y él trata de hallar la forma de regresar con su verdadero amor.',
+        'puntaje' => 4.8, 'cantidad_votos' => 8051451508, 'url_trailer' => 'https://www.youtube.com/embed/HFIdZpc2L6w']);
 
 
     }
