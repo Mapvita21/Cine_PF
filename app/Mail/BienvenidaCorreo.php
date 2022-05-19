@@ -22,7 +22,7 @@ class BienvenidaCorreo extends Mailable
     {
         $address = 'admin@MrRedisenador.com';
         $subject = 'MrResenadores';
-        $name = 'Soy el mero atole';
+        $name = 'Saludos!!';
 
         return $this->view('emails.email')
                     ->from($address)
