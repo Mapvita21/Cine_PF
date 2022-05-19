@@ -111,27 +111,7 @@
                 </div>
                 </li>
 
-            {{-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ya te vas {{ Auth::user()->name }}??</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">Si de verdad quieres irte... selecciona "Salir" :c .</div>
-                    <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                        @csrf
-                    </form>
-                    <a class="dropdown-item" href="{{route('logout')}}"><i class="fas fa-power-off mr-2"></i>Logout</a>
 
-                    </div>
-                </div>
-                </div>
-            </div> --}}
             @endguest
           </ul>
 
@@ -149,7 +129,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Miguel Enterprices &copy; PV. de NS.</span>
+            <span>SA.deC.V &copy; Derechos Reservados</span>
           </div>
         </div>
       </footer>
@@ -175,7 +155,7 @@
 
   <script src="{{ asset('vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
-  
+
   <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
   <script src="{{ asset('js/star-rating.js') }}"></script>
 

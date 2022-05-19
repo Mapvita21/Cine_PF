@@ -127,7 +127,7 @@ class PeliculaController extends Controller
     }
 
     /**
- 
+
      *
      * @param  \App\Pelicula  $pelicula
      * @return \Illuminate\Http\Response
